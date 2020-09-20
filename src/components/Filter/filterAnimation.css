@@ -1,0 +1,39 @@
+.filter-enter {
+  transform: translateX(-100%);
+}
+
+.filter-enter-active {
+  transform: translateX(0);
+  transition: all 300ms linear;
+}
+
+.filter-exit {
+  transform: translateX(0);
+}
+
+.filter-exit-active {
+  transform: translateX(-200%);
+  transition: all 300ms linear;
+}
+
+.notification-enter {
+  opacity: 0;
+  transform: translate(280px, -200px);
+}
+
+.notification-enter-active {
+  opacity: 1;
+  transform: translate(280px, -110px);
+  transition: all 300ms linear;
+}
+
+.notification-exit {
+  transform: translate(280px, -110px);
+  opacity: 1;
+}
+
+.notification-exit-active {
+  opacity: 0;
+  transform: translate(280px, -200px);
+  transition: all 300ms linear;
+}

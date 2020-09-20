@@ -1,0 +1,91 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  margin-bottom: 20px;
+}
+
+.formInput {
+  margin-left: 36px;
+}
+
+.formInput2 {
+  margin-left: 20px;
+}
+
+.header {
+  font-size: 28px;
+  margin: 30px;
+  text-align: center;
+  color: rgb(4, 4, 116);
+}
+
+.main {
+  overflow: hidden;
+  width: 500px;
+  height: auto;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: honeydew;
+  box-shadow: 15px 15px 5px -5px rgba(0, 0, 0, 0.2);
+}
+
+.addButton {
+  width: 200px;
+  height: 35px;
+  margin: 10px auto;
+  background-color: rgb(8, 8, 184);
+  color: white;
+  border: 1px solid rgb(8, 8, 184);
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.deleteButton {
+  width: 90px;
+  height: 35px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.list {
+  margin-top: 40px;
+}
+
+.contactList {
+  font-size: 24px;
+  width: 350px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gainsboro;
+  box-shadow: 0 15px 5px -12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.noContacts {
+  text-align: center;
+}
+
+.existNotification {
+  position: absolute;
+  transform: translate(280px, -110px);
+  padding: 15px 10px 15px 10px;
+  background-color: red;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+}
